@@ -1,0 +1,26 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": " Supervisor server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "fix-path": "^2.1.0",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.18",
+    "nodemon": "^1.18.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3"
+  }
+}
